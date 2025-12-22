@@ -2,7 +2,7 @@
 
 A command-line tool for merging and deduplicating `gamelist.xml` files used by emulation frontends such as EmulationStation, Batocera, and RetroPie.
 
-<img width="946" height="692" alt="image" src="https://github.com/user-attachments/assets/ff7ba808-a60a-49b8-b5d9-f4bc7dd05dc1" />
+<img width="950" height="822" alt="image" src="https://github.com/user-attachments/assets/4fe8840c-bf6a-4702-9fec-26ce68c9045b" />
 
 
 ## What It Does
@@ -120,5 +120,6 @@ Games are considered duplicates if they match on any of these properties (checke
 3. `<path>` - ROM file path
 
 When duplicates are found, the entries are **merged** rather than simply discarded. For each field, the first file (`-a`) takes priority, but if a field is empty in the first file, the value from the second file (`-b`) is used. This tries to produces the most comprehensive metadata possible for each game.
+
 
 
