@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GamelistMerger.Tests": {
+      "commandName": "Project",
+      "commandLineArgs": "--gamelistA C:\\tmp\\gamelist-1.xml --gamelistB C:\\tmp\\gamelist-2.xml --output C:\\tmp\\gamelist-merged.xml --exclude-bios --exclude-name-contains notgame,ZZZ --verbose --prefer-archives"
+    }
+  }
+}

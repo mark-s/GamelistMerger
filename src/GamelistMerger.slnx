@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GamelistMerger.Tests/GamelistMerger.Tests.csproj" />
+  <Project Path="GamelistMerger/GamelistMerger.csproj" />
+</Solution>
