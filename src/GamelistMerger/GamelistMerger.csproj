@@ -10,7 +10,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="CSharpFunctionalExtensions" Version="3.6.0" />
-		<PackageReference Include="System.CommandLine" Version="2.0.1" />
+		<PackageReference Include="System.CommandLine" Version="2.0.2" />
 		<PackageReference Include="YamlDotNet" Version="16.*" />
 	</ItemGroup>
 
